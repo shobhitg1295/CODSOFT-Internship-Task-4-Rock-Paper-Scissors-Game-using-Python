@@ -16,17 +16,17 @@ while True:
     # Game Logic
     if user == computer:
         print("It's a Tie!")
-    elif user == "rock":
+    elif user == "Rock":
         if computer == "scissors":
             print("You Win! Rock beats Scissors.")
         else:
             print("You Lose! Paper beats Rock.")
-    elif user == "paper":
+    elif user == "Paper":
         if computer == "rock":
             print("You Win! Paper beats Rock.")
         else:
             print("You Lose! Scissors beat Paper.")
-    elif user == "scissors":
+    elif user == "Scissors":
         if computer == "paper":
             print("You Win! Scissors beat Paper.")
         else:

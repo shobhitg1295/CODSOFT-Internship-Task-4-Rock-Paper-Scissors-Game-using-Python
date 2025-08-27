@@ -17,17 +17,17 @@ while True:
     if user == computer:
         print("It's a Tie!")
     elif user == "Rock":
-        if computer == "scissors":
+        if computer == "Scissors":
             print("You Win! Rock beats Scissors.")
         else:
             print("You Lose! Paper beats Rock.")
     elif user == "Paper":
-        if computer == "rock":
+        if computer == "Rock":
             print("You Win! Paper beats Rock.")
         else:
             print("You Lose! Scissors beat Paper.")
     elif user == "Scissors":
-        if computer == "paper":
+        if computer == "Paper":
             print("You Win! Scissors beat Paper.")
         else:
             print("You Lose! Rock beats Scissors.")

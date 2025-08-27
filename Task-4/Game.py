@@ -4,7 +4,7 @@ print("Welcome to Rock-Paper-Scissors Game!")
 
 while True:
     # User's Input
-    user = input("Enter Rock, Paper, or Scissors: ").lower()
+    user = input("Enter your choice Rock, Paper, or Scissors: ").lower()
 
     # Computer's Choice
     choices = ["rock", "paper", "scissors"]

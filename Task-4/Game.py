@@ -35,7 +35,7 @@ while True:
         print("Invalid choice! Please type Rock, Paper, or Scissors.")
 
     # Play Again
-    play_again = input("Do you want to play again? (yes/no): ").lower()
+    play_again = input("Do you want to play again? (yes/no): ")
     if play_again != "yes":
         print("Thanks for playing! Goodbye 👋")
         break

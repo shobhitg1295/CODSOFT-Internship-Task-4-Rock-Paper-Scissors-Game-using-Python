@@ -3,14 +3,17 @@ import random
 print("Welcome to Rock-Paper-Scissors Game!")
 
 while True:
+    # User's Input
     user = input("Enter Rock, Paper, or Scissors: ").lower()
 
+    # Computer's Choice
     choices = ["rock", "paper", "scissors"]
     computer = random.choice(choices)
 
     print("You chose:", user)
     print("Computer chose:", computer)
 
+    # Game Logic
     if user == computer:
         print("It's a Tie!")
     elif user == "rock":
@@ -31,8 +34,9 @@ while True:
     else:
         print("Invalid choice! Please type Rock, Paper, or Scissors.")
 
+    # Play Again
     play_again = input("Do you want to play again? (yes/no): ").lower()
     if play_again != "yes":
         print("Thanks for playing! Goodbye 👋")
         break
-      
+        
